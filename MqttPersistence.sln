@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MqttService", "MqttService\MqttService.csproj", "{4A05D838-EE49-4859-8B0E-81AA061D2D6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaConsumer", "KafkaConsumer\KafkaConsumer.csproj", "{24E61B3D-F348-4734-86D9-0A48C61A7505}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MqttClient", "MqttClient\MqttClient.csproj", "{62AC78C7-AC80-4034-837D-9C0BCFCF6EE9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A05D838-EE49-4859-8B0E-81AA061D2D6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A05D838-EE49-4859-8B0E-81AA061D2D6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A05D838-EE49-4859-8B0E-81AA061D2D6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A05D838-EE49-4859-8B0E-81AA061D2D6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24E61B3D-F348-4734-86D9-0A48C61A7505}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24E61B3D-F348-4734-86D9-0A48C61A7505}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24E61B3D-F348-4734-86D9-0A48C61A7505}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24E61B3D-F348-4734-86D9-0A48C61A7505}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62AC78C7-AC80-4034-837D-9C0BCFCF6EE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62AC78C7-AC80-4034-837D-9C0BCFCF6EE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62AC78C7-AC80-4034-837D-9C0BCFCF6EE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62AC78C7-AC80-4034-837D-9C0BCFCF6EE9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E62EF07B-4672-457B-8BC6-1CB3D9AA9936}
+	EndGlobalSection
+EndGlobal
